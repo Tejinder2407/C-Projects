@@ -1,0 +1,22 @@
+Name: Tejinder Singh
+ID: 129121216
+Email: ktejinder_singh@myseneca.ca
+Class: IPC144ZDD
+
+REFLECTION ASSINGMENT 2 
+1. #include <stdio.h>
+#include <string.h>
+int main()
+{
+    char a[20]="Program";
+    char b[20]={'P','r','o','g','r','a','m','\0'};
+
+    // using the %zu format specifier to print size_t
+    printf("Length of string a = %zu \n",strlen(a));
+    printf("Length of string b = %zu \n",strlen(b));
+
+    return 0;
+}
+String function that I use and is one of my favorites is strlen and above is an example of this function. It helps us to count characters in the string which is very handy. Also, it does not include the null character of the string which makes it accurate.
+For example: in the above code this string function helped me to count the character of the string program.
+2. 

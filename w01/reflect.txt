@@ -1,0 +1,2 @@
+In this workshop I learned how to code a well as find the errors within it also I got to use matrix to submit my assignment which was a new experience for me. We can transfer files through SSH with full security to the server.
+Secure File Transfer Protocol(SFTP) is basically a part of SSH which is used for easy data and file transfer, files can be transfered using WinSCP or SFTP client but I used WINSCP to submit my assignment through the server it was easy as all I needed to do was drag and drop the file that is to be transfered. 

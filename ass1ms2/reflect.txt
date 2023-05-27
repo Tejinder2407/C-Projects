@@ -1,0 +1,19 @@
+Name – Tejinder Singh
+Email – ktejinder-singh@myseneca.ca
+ID – 129121216
+Section – IPC144-ZDD 
+REFLECTION ASSIGNMENT 1
+
+1. The most challenging part in this assignment was to complete getCString part for account type in a1m2.c also getCharOption because of these rest of the code in print statement was not working properly. In getCString part when I wanted to print variables there was problems in it and it was not working properly as I was using the string data type to display a char value and in getCharOption I was not able print single character. 
+
+To solve these parts, I had to read my code again and again plus I debugged the code to make sure where I am wrong, so I did some research and got an idea from the internet to use pointers and asked my friend for advice and after using pointers it made my code work properly.
+
+2. The “helper functions” is a global function and it supports its class through its own parameter. These functions are helpful to make code easy to understand and it gives illustrative names to computation and in this assignment, I used this function to give name to c file and other files which made my code easy to read and more professional. With this function one can make their code more representable and you don’t have to give names again and again which make it easier while coding.
+3. the C programming language provides a programmer with a neat style and easy keywords. It allows to make struct which is very useful function as it makes the language easier and is mostly used while programming it is useful as we can group together multiple data types and we can maintain different kind of data types as well and we can group them together with similar data type it is very helpful because we then ca name that particular structure.
+Advantages: - 
+1.	It is very easy to learn and is user friendly plus very easy to maintain.
+2.	It can be used anywhere as it can be translated on any computer it is independent function.
+3.	It requires less time and effort to write structures.
+Disadvantages: -
+1.	If there is any change in data type which is structured code, then we have to make changes to every data type which is connected to changed data types which is too much more and irritating.
+2.	It is not possible to write function in structure and it require time to translate the code to machine language as it is a high-level language.

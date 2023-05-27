@@ -1,0 +1,54 @@
+Tejinder singh
+129121216
+ktejinder-singh@myseneca.ca
+workshop 05
+reflection
+
+
+
+Ans:-1
+When not using user defined functions, for a large program the tasks of debugging, compiling etc may become difficult in general.
+That’s why user defined functions are extremely necessary for complex programs. The necessities or advantages are as follows,
+
+1.It facilitates top-down modular programming. In this programming style, the high level logic of the overall problem is solved first while the details of each lower-level function are addressed later.
+2.The length of a source program can be reduced by using functions at appropriate places.
+It is easy to locate and isolate a faulty function for further investigations.
+3.A function may be used by many other programs. 4.This means that a programmer can build on what others have already done,
+ instead of starting all over again from scratch.
+Example : Creating a user defined function addition()
+#include <stdio.h>
+int addition(int num1, int num2)
+{
+     int sum;
+     /* Arguments are used here*/
+     sum = num1+num2;
+
+     /* Function return type is integer so we are returning
+      * an integer value, the sum of the passed numbers.
+      */
+     return sum;
+}
+
+int main()
+{
+     int var1, var2;
+     printf("Enter number 1: ");
+     scanf("%d",&var1);
+     printf("Enter number 2: ");
+     scanf("%d",&var2);
+
+     /* Calling the function here, the function return type
+      * is integer so we need an integer variable to hold the
+      * returned value of this function.
+      */
+     int res = addition(var1, var2);
+     printf ("Output: %d", res);
+
+     return 0;
+}
+
+ Ans:-2) If we keep a history of games played including the endgame results,
+then we need to add symbol for this endgame results and also need to add output i.e. :-
+printf("endgame results\n")
+ Ans:-3)  In this workshop most of time I spent on learning user defined functions,which makes this  topic intresting. It makes programming language easy and time consuming.
+I found difficulties mostly to run the program and some semicolon errors,which makes difficulty to display program.

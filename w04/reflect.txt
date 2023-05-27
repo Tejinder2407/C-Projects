@@ -1,0 +1,23 @@
+REFLETION Workshop4
+Tejinder singh 
+129121216
+ktejinder-singh@myseneca.ca
+IPC144-ZDD
+
+1. Parallel arrays is used to store information in tabular form. The elements in these arraays which in same index are related to each other. One of these arrays holds the key and other hold value
+   In this workshop I used 3 parellel arrays which are :
+    Itemcost[MAX_ITEMS]
+    Finance[MAX_ITEMS]
+    Priority[MAX_ITEMS] 
+2. It is good to use itrater variable zero because the starting index in an array is zero so if we use one, the first value will be missed.
+   In this workshop we used 
+   for(itemno=0; itemno<=items;i++)
+   {
+     totalcost=totalcost+cost[itemno];
+}
+3. We can explain the child by giving the example of item list.
+   In this example item no. will be the key with which we can access information like name of item, cost, number of items.
+   For example:
+   For finding an item lets say finding a monitor we will first look for its number then we can explain the children.
+   explain the children that there are two types of books. Place the same type of books in two groups ( that will be array) 
+   when picked randomly that suppose we picked book number 6 that will be the 6th element of the array. 

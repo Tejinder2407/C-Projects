@@ -1,0 +1,14 @@
+// Tejinder Singh
+// 129121216
+// Workshop 2
+// ktejinder-singh@myseneca.ca 
+1. The value (10.2) is not displayed correctly because the decimal number are  firstly converted into 32bit binary  and then stored in memory where the precision is performed also while printing with floating point precision is not exact.
+2. a) For intValue % 2 the result will be 0,1.
+       b) For intValue % 3 the result will be 0,1,2.
+       c) For intValue % 100 the result will be 0,1,2,3,…….so on.
+       3.     int wholePizzasEaten = estimatedSlicesConsumed / 12;
+               int extraSlicesNeeded = estimatedSlicesConsumed % 12 ;
+        4)    For the arithmetic operators like modulus it works only with integer data type. So it is considered to be best practice to convert the values to integer data type.	 
+
+    
+

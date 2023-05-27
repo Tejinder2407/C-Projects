@@ -1,0 +1,23 @@
+Name: Tejinder Singh 
+ID: 129121216
+Email: ktejinder-singh@myseneca.ca 
+Section: ZDD 
+REFLECTION -2 
+
+1.	There are time when my code does not work as I desire it to work which is very frustrating as it take a lot of your time to make code for example in this assignment their were new concept that were to use to complete the code which consumed a lot of my time and while implanting those new concepts I needed be very care full as ne little mistake would lead to failure of code, so I had to again and again read the notes, watch the lectures which helped me a lot as I was able to complete my code which showed me my desired output. 
+There are few steps I always do when I am not getting my output correct: -
+a.	I thoroughly read my code and match it to given assignment to see if its there is any mistake I have overlooked.
+b.	Next step, I debug my code which helps to find out the mistakes in the code and I just one by try to correct the mistakes (which is very tiring and time consuming).
+Well, these steps may be boring and irritating, but it helps a lot. As it is also important it to work perfectly because the submission of the project won’t be accepted by the server which is some time hard to overcome because some time your code works in visual studio, and it shows error in putty.
+But this also help us to prepare for the real world as there we won’t be getting any extension, nor we will our half-heartedly work would be accepted.
+
+2.	There are few things that look after while I am naming a module or a library: -
+a.	I give same to similar files, so it is easy for me to understand and distinguish between them.
+b.	I avoid names that only differ in case (car and Car) plus I avoid characters that look similar. (I and l)
+c.	Keeping the name short makes it easier for one to remember it easily.  
+d.	Try to provide enough info so its easy to identity the module.
+In this assignment by naming module had made it easier for me to identify the files easier as  I had names them similarly for header and source file in the c file ( commonHelper.c, commonHelper.h , account.c and account.h).
+
+3.	Account ticketing system is based cascading menu system which is a computer menu system in which the option selected in one menu is used to determine which options are available in the next this helps the user to narrow down the total number of options in simpler and understandable terms which makes the selection easier for the user.
+Cascading menus now days are used in dropdown list format, in this kind of list the top list is enabled, and others are blacked-out which only activates once the user activates the first otion which is very helpful so we don’t click the wrong option.
+

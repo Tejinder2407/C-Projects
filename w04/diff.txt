@@ -1,0 +1,14 @@
+In line number 61 of your output:
+The output should be:
+  1      1        n       39030.15
+                  ^
+But your output is: 
+  1      1        y       39030.15
+                  ^
+
+Unmatched character details:
+The character in column 19 is supposed to be:
+  [n] ASCII code(110)
+but you printed
+  [y] ASCII code(121)
+

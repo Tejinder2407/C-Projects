@@ -1,0 +1,24 @@
+/*
+	Name   : Tejinder Singh
+	ID     : 129121216
+	Email  : ktejinder-singh@myseneca.ca 
+	Section: ipc144-ZDD
+*/
+
+#ifndef COMMONHELPERS_H_
+#define COMMONHELPERS_H_
+
+int currentYear(void);
+void clearStandardInputBuffer(void);
+
+// helper functions
+
+int getInteger();
+int getPositiveInteger();
+double getDouble();
+double getPositiveDouble();
+int getIntFromRange(int lowerBound, int upperBound);
+char getCharOption(char str[]);
+void getCString(char* c, int lowerBound, int upperBound);
+void getPassword(char* c);
+#endif

@@ -1,0 +1,23 @@
+Reflection for Workshop 03 
+Tejinder Singh 
+129121216
+ktejinder-singh@myseneca.ca 
+
+1.if (Month == 1)
+		{
+			printf("JAN-0%d", day);
+		}
+		if (Month == 2)
+		{
+			printf("FEB-0%d", day);
+		}
+In the two selection their are two types (if/else) statement  and (switch).
+a. In the if/else statement their can be single or multiple statements and the condition is applied on if statement and if it is true it follows the sequence and if it is false it then moves to the else statement.
+b.In the (switch) type od statement, the statement is matched with a condition with a set of experation and constant values such as (break/case)statement. The sequence is completed with case and break statment. If by any chance break is missing then the control flows to the next case and the program run the sequence under that case.
+
+2. There are three types of Iteration contruscts.
+a, While-it runs if the condition id true
+b. Do while-its runs for atleast once (if true)
+c. For-it groups the scostruct with the help of semi colns.
+  In my code I used the while statement to calculate the ratings and days of month. 
+3. In this code first of all I run the programm after that I noted down all the errors from the error list and warning list, then  I changed the data types then executed it again if there was anny error I repeated the steps if the optput is right then the run th programm.

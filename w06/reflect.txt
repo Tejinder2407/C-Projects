@@ -1,0 +1,81 @@
+Name – Tejinder Singh
+Email – ktejinder-singh@myseneca.ca
+ID – 129121216
+Section – IPC144-ZDD 
+REFLECTION workshop 6
+
+Name – Tejinder Singh
+Email – ktejinder-singh@myseneca.ca
+ID – 129121216
+Section – IPC144-ZDD 
+REFLECTION WORKSHOP 6 
+
+1. We all know that when we use structure it occupy more space than when we use some other concept. This structure contains 9 members which are as follows : -
+struct ReportData
+{
+	int sku;
+	double rate;
+	int calories;
+	double weight_Lbs;
+	double weight_kgs;
+	int weight_gm;
+	double TotalServe;
+	double CostServe;
+	double CostCal;
+};
+The following show that the structure contains 3 intege and 6 double datatypes. If we want to calculate the memory occupied by them: -
+a.	Calculating for int data type:
+No. of bytes = 2
+No. of integer datatypes in structure = 3
+Total memory occupied = 2*3 = 6, 6 bytes
+b.	 Calculating for double data type :
+No. of bytes = 8
+No. of double datatypes in structure = 6
+Total memory occupied = 8*6 = 54 , 54 bytes
+
+We can save some memory if the address is moved through the passing of information.
+
+For example:
+ we can look at displayReportData;
+
+struct ReportData
+{
+	int sku;
+	double rate;
+	int calories;
+	double weight_Lbs;
+	double weight_kgs;
+	int weight_gm;
+	double TotalServe;
+	double CostServe;
+	double CostCal;
+};
+
+
+void displayReportData(const struct ReportData data)
+{
+	printf("%07d %10.2lf %10.1lf %10.4lf %9d %8d %8.1lf %7.2lf %7.5lf", data.sku,
+		data.rate, data.weight_Lbs, data.weight_kgs, data.weight_gm, data.calories,
+		data.TotalServe, data.CostServe, data.CostCal);
+                 printf("\n");
+}
+
+2.  One can use nested structs that will help with writing the identical members in code and add it in the ReportData. 
+ struct ReportData
+{
+                 struct CatFoodInfo catFoodInfo;
+	int sku;
+	double rate;
+	int calories;
+	double weight_Lbs;
+	double weight_kgs;
+	int weight_gm;
+	double TotalServe;
+	double CostServe;
+	double CostCal;
+};
+ the new print statement will be:
+
+
+
+printf("%07d %10.2lf %10.1lf %10.4lf %9d %8d %8.1lf %7.2lf %7.5lf", data.catFoodInfo.sku, data.catFoodInfo.rate, data.catFoodInfo.weight_Lbs, data.catFoodInfo.weight_kgs, data.catFoodInfo.weight_gm, data.catFoodInfo.calories,data.catFoodInfo.TotalServe, data.catFoodInfo.CostServe, data.catFoodInfo.CostCal);
